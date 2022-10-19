@@ -1,0 +1,118 @@
+{
+  "name": "GenerateYearlyReport_Dispatcher",
+  "description": "",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        ".screenshots/2a9d22a5fe0198a0234cfdafbde6246d.png",
+        ".screenshots/5812b7b77cfa41a8b4c85896c39dad7c.png",
+        ".screenshots/7063c3ea6f85012b028e8a6dc6458bbe.png",
+        ".screenshots/820f6882e7d9a843656771335b599c71.png",
+        ".screenshots/8366ce37f1a5698e7b769f27a5daf77a.png",
+        ".screenshots/90d8ead92408c9a27c542413d6d5f450.png",
+        ".screenshots/c642696d8122197699db4beb52e94724.png",
+        ".screenshots/eaf1ed3a608b9b2112e6ac630c42bf57.png",
+        "Documentation/REFramework Documentation-EN.pdf"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b7c52e5a-5ea8-414f-9c8b-a6c089dba6b7",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "950bccb8-0e52-4e8c-8cc1-3fda1bcc037c",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0d94ce15-4e9f-441a-a748-bc9aeb1c8b8d",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "987dc8ed-69f5-40a3-961c-a7c0de888c0e",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d13b8a4f-d294-4dad-807c-a0dc63e8bd37",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7bcd715f-74c3-471f-987e-718852acf19f",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bfad0bb5-4ac6-4250-a707-2ede0f265cfd",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7e1604b0-825b-482f-bcec-fa3e0659653c",
+        "testCaseType": "TestCase",
+        "fileName": "System1\\Login_TestCase.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "d7c3d6cf-8810-4814-90ce-92b080f291f4",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
